@@ -1,0 +1,26 @@
+{
+  "name": "vuejs3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --watch",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@vue/compiler-sfc": "^3.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "vue-loader": "^16.0.0-beta.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-beta.12"
+  }
+}
